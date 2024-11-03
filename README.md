@@ -10,8 +10,11 @@
 
 ## Run in Local Machine
 1. Download or clone the project and unzip the project if necessery.
-2. Go to the `server` directory and open terminal.
-3. Run the command
+   ```text
+   https://github.com/1707073Jafril/FTP-Server
+   ```
+3. Go to the `server` directory and open terminal.
+4. Run the command
    ```bash
    g++ ftp_server.cpp -o ftp_server
    ```
@@ -19,14 +22,14 @@
    ./ftp_server
    ```
 
-4. Go to the `client` directory, open terminal and run the command.
+5. Go to the `client` directory, open terminal and run the command.
    ```bash
    g++ ftp_client.cpp -o ftp_client
     ```
    ```bash
    ./ftp_client
    ```
-5. Testing the server :  
+6. Testing the server :  
      - File Uploading  
            - Create a file in `client` directory [ig : test.txt]  
            - Run the command `./ftp_client` and `UPLOAD test.txt`  
