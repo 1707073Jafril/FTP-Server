@@ -27,11 +27,11 @@
    ./ftp_client
    ```
 5. Testing the server :
-     - File Uploading
-           - Create a file in `client` directory [ig : test.txt]
-           - Run the command `./ftp_client` and `UPLOAD test.txt`
-           - Uploaded file location will be `server/uploads`
-      - File Downloading
+     - File Uploading  
+           - Create a file in `client` directory [ig : test.txt]  
+           - Run the command `./ftp_client` and `UPLOAD test.txt  `
+           - Uploaded file location will be `server/uploads  `
+      - File Downloading   
            - Run the command `./ftp_client` and `DOWNLOAD test.txt`
            - Downloaded file location will be `client/downloads`
    
